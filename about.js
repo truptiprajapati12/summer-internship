@@ -1,0 +1,12 @@
+var progress = document.getElementById('htmlprogress_done');
+progress.style.width = progress.getAttribute('data-done');
+var css = document.getElementById('cssprogressdone');
+css.style.width = css.getAttribute('data-done');
+var boot = document.getElementById('bootprogressdone');
+boot.style.width = boot.getAttribute('data-done');
+var sass = document.getElementById('sassprogressdone');
+sass.style.width = boot.getAttribute('data-done');
+var js = document.getElementById('jsprogressdone');
+js.style.width = js.getAttribute('data-done');
+var react = document.getElementById('reactprogressdone');
+react.style.width = boot.getAttribute('data-done');
